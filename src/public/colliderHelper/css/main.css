@@ -1,0 +1,65 @@
+html, body {
+  font-size: 100%;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background-color: red;
+  color: #2d2d2d;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 30px;
+  color: red;
+  background: royalblue;
+}
+
+#export {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  padding: 15px 30px;
+  color: #fff;
+  background: #0707f9;
+
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 255, 0.2);
+  
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.grid {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
+.grid .cell {
+  position: absolute;
+  border: 1px solid #000;
+
+  color: #000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid .cell p {
+  font-size: 12px;
+  pointer-events: none;
+}

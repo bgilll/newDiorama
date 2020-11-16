@@ -1,0 +1,10 @@
+Move build to esbuild, chokidar watcher
+
+Refactor 
+- load assets, then start render (high)
+- instance navigation geometry, create Cell class to handle interaction (set color on hover, click etc) with grid cell (low)
+- clean up project files, start new repo
+
+Todo
+- character animation
+- test scene, load all geom and tetures from gltf

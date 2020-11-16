@@ -1,0 +1,19 @@
+body {
+  width: 100vw;
+  height: 100vh;
+
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: 400;
+  background: #000;
+  background-image: linear-gradient(0deg, #56f7a4 0%, #29bc70 100%);
+  color: #fff;
+  
+  user-select: none;
+  overflow: hidden;
+}
+
+p {
+  font-size: 14px;
+  line-height: 24px;
+}
